@@ -606,7 +606,7 @@
       }
       if (!self.rail) return;
       if (self.autohidedom) self.autohidedom.stop().css({opacity:self.opt.cursoropacitymax});
-      self.cursor.css({height:self.cursorheight,top:self.scroll.y});
+      self.cursor.css({height:self.cursorheight,top:self.scroll.y, opacity:self.opt.cursoropacitymax});
       if (self.zoom) self.zoom.stop().css({opacity:self.opt.cursoropacitymax});
     };
     
